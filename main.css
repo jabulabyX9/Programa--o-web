@@ -1,6 +1,7 @@
 body {
     font-family:monospace;
     font-size: 18pt;
+    background-image: url('img/03.jpg');
 
 }
 ul{
@@ -29,20 +30,20 @@ h2{
     font-size: 24pt;
 }
 
-.dark-theme{
+/*.dark-theme{ www.w3.org/2000/svg
 
     color: #000000;
     
     background: #ffffff;
-}
+}*/
 .bnt {
     color:rgb(255, 255, 255);
     background-color:dimgrey;
 }
 .bnt{
-    position:static;
-    top: 250px;
-    left: 25px;
+    position:absolute;
+    top: 50px;
+    left: 50px;
     height: 50px;
     width: 80px;
     border-radius: 10%;
@@ -51,3 +52,12 @@ h2{
     font-size: 20pt;
 }
 .bnt:focus {outline-style: none; }
+
+div.quadrado {
+
+    border: 2px solid black ;
+    border-radius: 10px;
+    background-color: rgb(255, 249, 240);
+    width: 70%;
+    margin: 0 auto;
+}
