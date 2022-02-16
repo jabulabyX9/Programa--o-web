@@ -1,63 +1,37 @@
 body {
-    font-family:monospace;
-    font-size: 18pt;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14pt;
     background-image: url('img/03.jpg');
 
 }
-ul{
-    font-family: monospace;
-    font-size: 16pt;
-    
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 25px;
+}
+th{
+    background-color: rgb(21, 4, 98);
+    color: white;
 }
 li {
 
     list-style: circle;
     
  }
-    
-.list{
-    
-    list-style: square;
-    
- }
-    
-#msg{
-    
-    font-family: monospace;
-    
+h2,h3{
+    font-size: 16pt;
 }
-h2{
-    font-size: 24pt;
+h1{
+    font-size: 18pt;
 }
 
-/*.dark-theme{ www.w3.org/2000/svg
 
-    color: #000000;
-    
-    background: #ffffff;
-}*/
-.bnt {
-    color:rgb(255, 255, 255);
-    background-color:dimgrey;
-}
-.bnt{
-    position:absolute;
-    top: 50px;
-    left: 50px;
-    height: 50px;
-    width: 80px;
-    border-radius: 10%;
-    border: none;
-    font-style:unset;
-    font-size: 20pt;
-}
-.bnt:focus {outline-style: none; }
 
 div.quadrado {
 
     border: 2px solid black ;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: rgb(255, 249, 240);
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
