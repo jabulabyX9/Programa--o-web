@@ -47,3 +47,23 @@ imput{
 form li+li{
     margin-top: 1em;
 }
+.button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    outline: none;
+    background-color: rgb(240, 98, 3);
+    color: white;
+    box-shadow: 0 5px #999;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(180, 72, 0);
+}
+
+.button:active{
+    background-color: rgb(180, 72, 0);
+    box-shadow: 0 2px #999;
+    transform: translateY(2px);
+}
