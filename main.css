@@ -16,5 +16,34 @@ li {
 
 h1{
     font-size: 30px;
-    color: white;
+}
+body{
+    font-size: 12px;
+
+}
+form{
+    margin: 0 auto;
+    width: 350px;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+    text-align: left;
+}
+
+label{
+    width: 150px ;
+    text-align: center;
+}
+
+imput{
+    width: 100px ;
+    vertical-align: top;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li+li{
+    margin-top: 1em;
 }
