@@ -40,6 +40,7 @@ label {
 }
 
 .menu{
+<<<<<<< HEAD
     background-color: rgb(12, 131, 179);
     font-size: 20px;
     font-family: "Fira code";
@@ -48,6 +49,17 @@ label {
     padding: 0;
     overflow: hidden;
     position: fixed;
+=======
+    background-color: rgb(155, 155, 155);
+    font-size: 20px;
+    font-family: "Fira code";
+    font-weight: 500;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: none;
+>>>>>>> 7e25e8cbd8186f337e36dcd4bd5e72d0900e3178
     top: 0;
     width: 100%;
     text-decoration: none;
@@ -62,6 +74,7 @@ label {
 .menu a {
     text-decoration: none;
     display: block;
+<<<<<<< HEAD
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
@@ -70,6 +83,14 @@ label {
 .menu li{
 
     list-style-type: none;
+=======
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+
+    
+
+>>>>>>> 7e25e8cbd8186f337e36dcd4bd5e72d0900e3178
 }
 .menu li:hover{
     color: #fff;
@@ -84,6 +105,23 @@ article{
 input {
     width: 150px;
 
+<<<<<<< HEAD
+=======
+/*.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 94, 94);
+    position: none;
+    top: 0;
+    width: 100%;
+}*/
+
+input {
+    width: 150px;
+
+>>>>>>> 7e25e8cbd8186f337e36dcd4bd5e72d0900e3178
 }
 
 .list {
